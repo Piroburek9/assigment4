@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 from langsmith import traceable
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.graph import StateGraph, START, END
+pip install -U google-genai langsmith
+
 
 from models import GraphState, TicketCategory, TicketSummary
 from prompts import CATEGORIZATION_PROMPT, SUMMARY_PROMPT, DRAFT_REPLY_PROMPT
